@@ -5,7 +5,6 @@ import { motion } from 'framer-motion'
 import { useRouter } from 'next/navigation'
 
 interface CarouselItem {
-  id: string
   title: string
   image?: string
   uri: string

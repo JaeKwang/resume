@@ -1,4 +1,3 @@
-import Image from "next/image"
 import "./globals.css"
 import Header from "@/app/components/layout/header"
 import Footer from "./components/layout/footer"

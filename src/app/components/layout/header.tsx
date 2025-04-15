@@ -1,7 +1,7 @@
 'use client'
 import "@/app/globals.css"
 import { useScrollTop } from "@/hook/useScrollTop";
-import Image from "next/image"
+import Link from "next/link";
 
 export default function Header() {
   const atTop = useScrollTop();
@@ -12,19 +12,19 @@ export default function Header() {
         shadow-md z-50 overflow-hidden transition-colors duration-800`
     }>
       <nav className="px-12 py-8 flex justify-between items-center whitespace-nowrap gap-8">
-        <a href="/#introduce">
+        <Link href="/#introduce">
           <div className="flex items-center shrink-0 gap-2">
-            <Image src="/jk-sm.png" alt="JK" width={30} height={30} className="prohibit-copy" />
+            <img src="/jk-sm.png" alt="JK" width={30} height={30} className="prohibit-copy" />
             <h1 className="text-xl font-semibold prohibit-copy">Jaekwang Park</h1>
           </div>
-        </a>
+        </Link>
         <ul className="flex space-x-8 text-sm font-medium">
-          <li><a href="#introduce" className="hover:text-[#53b05b] transition-colors duration-300 text-lg">소 개</a></li>
-          <li><a href="#skills" className="hover:text-[#53b05b] transition-colors duration-300 text-lg">기 술</a></li>
-          <li><a href="#experience" className="hover:text-[#53b05b] transition-colors duration-300 text-lg">경 력</a></li>
-          <li><a href="#education" className="hover:text-[#53b05b] transition-colors duration-300 text-lg">학 력</a></li>
-          <li><a href="#projects" className="hover:text-[#53b05b] transition-colors duration-300 text-lg">프 로 젝 트</a></li>
-          <li><a href="/hobby" className="hover:text-[#53b05b] transition-colors duration-300 text-lg">취 미</a></li>
+          <li><Link href="#introduce" className="hover:text-[#53b05b] transition-colors duration-300 text-lg">소 개</Link></li>
+          <li><Link href="#skills" className="hover:text-[#53b05b] transition-colors duration-300 text-lg">기 술</Link></li>
+          <li><Link href="#experience" className="hover:text-[#53b05b] transition-colors duration-300 text-lg">경 력</Link></li>
+          <li><Link href="#education" className="hover:text-[#53b05b] transition-colors duration-300 text-lg">학 력</Link></li>
+          <li><Link href="#projects" className="hover:text-[#53b05b] transition-colors duration-300 text-lg">프 로 젝 트</Link></li>
+          <li><Link href="/hobby" className="hover:text-[#53b05b] transition-colors duration-300 text-lg">취 미</Link></li>
         </ul>
       </nav>
     </header>
