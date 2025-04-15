@@ -15,7 +15,7 @@
       "title": "빨래",
       "role": "구씨",
       "media": [
-        { "type": "image", "src": "/hobby/빨래1.jpg" },
+        { "type": "image", "src": "/hobby/빨래1.png" },
         { "type": "image", "src": "/hobby/빨래2.png" },
         { "type": "video", "src": "/hobby/빨래.mp4", "thumbnail": "/hobby/빨래-thumbnail.png"}
       ]
@@ -49,7 +49,7 @@
       "role": "건영",
       "media": [
         { "type": "image", "src": "/hobby/메리골드.png" },
-        { "type": "image", "src": "/hobby/메리골드2.jpg" },
+        { "type": "image", "src": "/hobby/메리골드2.png" },
         { "type": "image", "src": "/hobby/메리골드3.jpg" }
       ]
     },

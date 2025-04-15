@@ -3,7 +3,19 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import musicalList from '@/data/hobby.json'
+import hobbyData from '@/data/hobby.json'
+
+const hobbyList = hobbyData as {
+  date: string
+  type: string
+  title: string
+  role: string
+  media: {
+    type: 'image' | 'video'
+    src: string
+    thumbnail?: string
+  }[]
+}[]
 
 export default function Hobby() {
   const [showModal, setShowModal] = useState(false)
@@ -21,7 +33,7 @@ export default function Hobby() {
       <h2 className="text-4xl font-bold text-center mb-16 mt-16">🎭 뮤지컬 활동</h2>
 
       <div className="space-y-16 max-w-5xl mx-auto">
-        {musicalList.map((m, i) => (
+        {hobbyList.map((m, i) => (
           <motion.div
             key={i}
             initial={{ opacity: 0, y: 40 }}
