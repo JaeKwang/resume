@@ -20,7 +20,7 @@ export default function Introduce() {
   return (
     <div
       ref={ref}
-      className="flex flex-row items-center justify-between gap-12 px-6 py-16 max-w-6xl mx-auto"
+      className="flex flex-row items-center justify-between gap-64 px-6 py-16 max-w-6xl mx-auto"
     >
       <motion.div
         initial={{ opacity: 0, x: -100 }}

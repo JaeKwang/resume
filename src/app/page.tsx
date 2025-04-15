@@ -1,7 +1,7 @@
 'use client'
 
 import Introduce from "@/app/components/home/introduce";
-import Experience from "@/app/components/home/experience";
+import Works from "@/app/components/home/works";
 import Education from "@/app/components/home/education";
 import Projects from "@/app/components/home/projects";
 import Skills from "@/app/components/home/skills";
@@ -17,7 +17,7 @@ export default function ResumePage() {
         <Skills />
       </section>
       <section id="experience" className="main-section">
-        <Experience />
+        <Works />
       </section>
       <section id="education" className="main-section">
         <Education />
