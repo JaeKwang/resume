@@ -1,0 +1,79 @@
+[
+    {
+      "date": "2019.06",
+      "type": "창작뮤지컬",
+      "title": "메아리",
+      "role": "음악의 신",
+      "media": [
+        { "type": "image", "src": "/hobby/메아리.jpg" },
+        { "type": "image", "src": "/hobby/메아리.png" }
+      ]
+    },
+    {
+      "date": "2019.10",
+      "type": "뮤지컬",
+      "title": "빨래",
+      "role": "구씨",
+      "media": [
+        { "type": "image", "src": "/hobby/빨래1.jpg" },
+        { "type": "image", "src": "/hobby/빨래2.png" },
+        { "type": "video", "src": "/hobby/빨래.mp4", "thumbnail": "/hobby/빨래-thumbnail.png"}
+      ]
+    },
+    {
+      "date": "2019.12",
+      "type": "AMA",
+      "title": "라이온킹",
+      "role": "MVP 수상",
+      "media": [
+        { "type": "image", "src": "/hobby/ama-1.jpg" },
+        { "type": "image", "src": "/hobby/ama-2.jpg" },
+        { "type": "video", "src": "/hobby/ama-3.mp4", "thumbnail": "/hobby/ama-thumbnail.png"}
+      ]
+    },
+    {
+      "date": "2020.06",
+      "type": "뮤직드라마",
+      "title": "당신만이",
+      "role": "영석",
+      "media": [
+        { "type": "image", "src": "/hobby/당신만이.png" },
+        { "type": "image", "src": "/hobby/당신만이2.png" },
+        { "type": "image", "src": "/hobby/당신만이3.png" }
+      ]
+    },
+    {
+      "date": "2021.03",
+      "type": "뮤지컬",
+      "title": "메리골드",
+      "role": "건영",
+      "media": [
+        { "type": "image", "src": "/hobby/메리골드.png" },
+        { "type": "image", "src": "/hobby/메리골드2.jpg" },
+        { "type": "image", "src": "/hobby/메리골드3.jpg" }
+      ]
+    },
+    {
+      "date": "2022.10",
+      "type": "뮤지컬",
+      "title": "RABBIT:잊혀진 암호명",
+      "role": "석대",
+      "media": [
+        { "type": "image", "src": "/hobby/rabbit1-1.jpg" },
+        { "type": "image", "src": "/hobby/rabbit1-2.jpg" },
+        { "type": "video", "src": "/hobby/rabbit1.mp4", "thumbnail": "/hobby/rabbit1-thumbnail.png"}
+      ]
+    },
+    {
+      "date": "2023.12",
+      "type": "뮤지컬",
+      "title": "RABBIT:잊혀진 암호명",
+      "role": "석대",
+      "media": [
+        { "type": "image", "src": "/hobby/rabbit2-1.jpg" },
+        { "type": "image", "src": "/hobby/rabbit2-2.jpg" },
+        { "type": "video", "src": "/hobby/rabbit2.mp4", "thumbnail": "/hobby/rabbit2-thumbnail.png"}
+      ]
+    }
+]
+  
