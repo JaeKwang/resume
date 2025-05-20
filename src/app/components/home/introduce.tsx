@@ -29,7 +29,7 @@ export default function Introduce() {
         className="text-right max-w-lg text-gray-700 text-sm leading-relaxed"
       >
         <p className="mb-2 font-cookierun font-extrabold text-8xl">
-          박 재 광
+          JaeKwang Park
         </p>
         <p className="mt-6 text-lg">
           자율주행 로봇 제어 소프트웨어에 특화된 엔지니어이자,<br />
@@ -39,7 +39,7 @@ export default function Introduce() {
         </p>
         <p className="mt-4 font-light text-sm italic text-gray-400">
           #로봇제어 #스마트컨트랙트 #컴퓨터비전<br />
-          #게임개발 #재무컨설팅 #뮤지컬배우
+          #AI #게임개발 #재무컨설팅 #뮤지컬배우
         </p>
         <p className="mt-4 text-xs text-gray-400">jkpark125@gmail.com</p>
       </motion.div>

@@ -5,15 +5,16 @@
       "title": "메아리",
       "role": "음악의 신",
       "media": [
-        { "type": "image", "src": "/hobby/메아리.jpg" },
-        { "type": "image", "src": "/hobby/메아리.png" }
+        { "type": "image", "src": "/hobby/메아리.png" },
+        { "type": "image", "src": "/hobby/메아리1.jpg" },
+        { "type": "image", "src": "/hobby/메아리2.jpg" }
       ]
     },
     {
       "date": "2019.10",
       "type": "뮤지컬",
       "title": "빨래",
-      "role": "구씨",
+      "role": "구씨 & 멀티",
       "media": [
         { "type": "image", "src": "/hobby/빨래1.png" },
         { "type": "image", "src": "/hobby/빨래2.png" },
@@ -35,7 +36,7 @@
       "date": "2020.06",
       "type": "뮤직드라마",
       "title": "당신만이",
-      "role": "영석",
+      "role": "영석 & 멀티",
       "media": [
         { "type": "image", "src": "/hobby/당신만이.png" },
         { "type": "image", "src": "/hobby/당신만이2.png" },

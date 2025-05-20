@@ -52,6 +52,12 @@ export default function Skills() {
             Unity3D, Phaser3<br/>
           </p>
           <br/>
+          <p className="font-noonnu text-3xl">[AI]</p>
+          <p className="font-noonnu text-4xl">
+            Google Colab, CNN, Yolo Network, <br/>
+          </p>
+          
+          <br/>
           <p className="font-noonnu text-3xl">[ETC]</p>
           <p className="font-noonnu text-4xl">
             Matlab, Jira, Github, Bitbucket<br/>

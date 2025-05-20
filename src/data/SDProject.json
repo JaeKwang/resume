@@ -1,0 +1,32 @@
+[
+    {
+        "title": "AI 주식 매매봇 개발",
+        "date": "2022.06 ~ 2022.09",
+        "image": "/project/sd1/ui.png",
+        "uri": "project/sd1"
+    },
+    {
+        "title": "Simple Bitcoin 개발",
+        "date": "2025.01",
+        "image": "/project/sd2/main.png",
+        "uri": "project/sd2"
+    },
+    {
+        "title": "My UniSwap 개발",
+        "date": "2025.02",
+        "image": "/project/sd3/lp.png",
+        "uri": "project/sd3"
+    },
+    {
+        "title": "NFT TCG Game 개발",
+        "date": "2025.02 ~ 현재",
+        "image": "/project/sd4/main.png",
+        "uri": "project/sd4"
+    },
+    {
+        "title": "CRPG 개발",
+        "date": "2025.03~2025.04",
+        "image": "/project/sd5/main.png",
+        "uri": "project/sd5"
+    }
+]
