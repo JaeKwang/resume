@@ -48,7 +48,7 @@ export default function Introduce() {
         initial={{ opacity: 0 }}
         animate={inView ? { opacity: 1 } : {}}
         transition={{ duration: 1.5 }}
-        src="/profile.jpg"
+        src="/profile.png"
         alt="Profile"
         className="w-80 object-cover prohibit-copy"
       />

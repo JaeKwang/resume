@@ -5,7 +5,7 @@
       "title": "메아리",
       "role": "음악의 신",
       "media": [
-        { "type": "image", "src": "/hobby/메아리.png" },
+        { "type": "image", "src": "/hobby/메아리.jpg" },
         { "type": "image", "src": "/hobby/메아리1.jpg" },
         { "type": "image", "src": "/hobby/메아리2.jpg" }
       ]
@@ -16,9 +16,9 @@
       "title": "빨래",
       "role": "구씨 & 멀티",
       "media": [
-        { "type": "image", "src": "/hobby/빨래1.png" },
-        { "type": "image", "src": "/hobby/빨래2.png" },
-        { "type": "video", "src": "/hobby/빨래.mp4", "thumbnail": "/hobby/빨래-thumbnail.png"}
+        { "type": "image", "src": "/hobby/빨래1.jpg" },
+        { "type": "image", "src": "/hobby/빨래2.jpg" },
+        { "type": "video", "src": "/hobby/빨래.mp4", "thumbnail": "/hobby/빨래-thumbnail.jpg"}
       ]
     },
     {
@@ -29,7 +29,7 @@
       "media": [
         { "type": "image", "src": "/hobby/ama-1.jpg" },
         { "type": "image", "src": "/hobby/ama-2.jpg" },
-        { "type": "video", "src": "/hobby/ama-3.mp4", "thumbnail": "/hobby/ama-thumbnail.png"}
+        { "type": "video", "src": "/hobby/ama-3.mp4", "thumbnail": "/hobby/ama-thumbnail.jpg"}
       ]
     },
     {
@@ -38,9 +38,9 @@
       "title": "당신만이",
       "role": "영석 & 멀티",
       "media": [
-        { "type": "image", "src": "/hobby/당신만이.png" },
-        { "type": "image", "src": "/hobby/당신만이2.png" },
-        { "type": "image", "src": "/hobby/당신만이3.png" }
+        { "type": "image", "src": "/hobby/당신만이.jpg" },
+        { "type": "image", "src": "/hobby/당신만이2.jpg" },
+        { "type": "image", "src": "/hobby/당신만이3.jpg" }
       ]
     },
     {
@@ -49,8 +49,8 @@
       "title": "메리골드",
       "role": "건영",
       "media": [
-        { "type": "image", "src": "/hobby/메리골드.png" },
-        { "type": "image", "src": "/hobby/메리골드2.png" },
+        { "type": "image", "src": "/hobby/메리골드.jpg" },
+        { "type": "image", "src": "/hobby/메리골드2.jpg" },
         { "type": "image", "src": "/hobby/메리골드3.jpg" }
       ]
     },
@@ -62,7 +62,7 @@
       "media": [
         { "type": "image", "src": "/hobby/rabbit1-1.jpg" },
         { "type": "image", "src": "/hobby/rabbit1-2.jpg" },
-        { "type": "video", "src": "/hobby/rabbit1.mp4", "thumbnail": "/hobby/rabbit1-thumbnail.png"}
+        { "type": "video", "src": "/hobby/rabbit1.mp4", "thumbnail": "/hobby/rabbit1-thumbnail.jpg"}
       ]
     },
     {
@@ -73,7 +73,7 @@
       "media": [
         { "type": "image", "src": "/hobby/rabbit2-1.jpg" },
         { "type": "image", "src": "/hobby/rabbit2-2.jpg" },
-        { "type": "video", "src": "/hobby/rabbit2.mp4", "thumbnail": "/hobby/rabbit2-thumbnail.png"}
+        { "type": "video", "src": "/hobby/rabbit2.mp4", "thumbnail": "/hobby/rabbit2-thumbnail.jpg"}
       ]
     }
 ]

@@ -3,25 +3,25 @@
     {
         "title": "손가락 감지 증강현실 게임 개발",
         "date": "2014",
-        "image": "/project/ac1/main.png",
+        "image": "/project/ac1/main.jpg",
         "uri": "project/ac1"
     },
     {
         "title": "웨어러블 컴퓨팅 개발 대회",
         "date": "2015",
-        "image": "/project/ac2/main.png",
+        "image": "/project/ac2/main.jpg",
         "uri": "project/ac2"
     },
     {
         "title": "RGB+D 깊이 영상 신뢰도 측정 기법 제시",
         "date": "2016.04 ~ 2016.08",
-        "image": "/project/ac3/main.png",
+        "image": "/project/ac3/main.jpg",
         "uri": "project/ac3"
     },
     {
         "title": "픽셀단위의 빠른 아핀변환행렬 보간법 논문 게재",
         "date": "2017.06 ~ 2018.02",
-        "image": "/project/ac4/main.png",
+        "image": "/project/ac4/main.jpg",
         "uri": "project/ac4"
     }
 ]

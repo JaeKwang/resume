@@ -3,25 +3,25 @@
     {
         "title": "반도체 공정 마무리 신호 감지 프로그램 제작",
         "date": "2021.07~2021.12",
-        "image": "/project/cb1/epd.png",
+        "image": "/project/cb1/epd.jpg",
         "uri": "project/cb1"
     },
     {
         "title": "SEM 이미지 미세구조 감지 프로그램 개발",
         "date": "2022.09 ~ 2022.12",
-        "image": "/project/cb2/cell-detected.png",
+        "image": "/project/cb2/cell-detected.jpg",
         "uri": "project/cb2"
     },
     {
         "title": "쇼핑몰 모바일/웹 앱 개발",
         "date": "2023.01 ~ 2023.12",
-        "image": "/project/cb3/main.png",
+        "image": "/project/cb3/main.jpg",
         "uri": "project/cb3"
     },
     {
         "title": "AI 교육용 키트 개발",
         "date": "2025.03 ~ 현재",
-        "image": "/project/cb4/ai.png",
+        "image": "/project/cb4/ai.jpg",
         "uri": "project/cb4"
     }
 ]
