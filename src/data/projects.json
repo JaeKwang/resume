@@ -2,14 +2,14 @@
   {
     "title": "Money Printer",
     "date": "2025~2021",
-    "image": "",
+    "image": "/project/money-printer/diagram.png",
     "uri": "project/mozaqi"
   },
   {
     "title": "Palletizer",
     "date": "2022~2024",
-    "image": "",
-    "uri": "project/mozaqi"
+    "image": "/project/palletizer/bin-packing.jpg",
+    "uri": "project/palletizer"
   },
   {
     "title": "MOZAQI",
@@ -48,9 +48,9 @@
     "uri": "project/mozaqi"
   },
   {
-    "title": "Yolo",
+    "title": "Cell Detection",
     "date": "2022~2024",
-    "image": "",
+    "image": "/project/cell-detection/cell-detected.png",
     "uri": "project/mozaqi"
   }
 ]

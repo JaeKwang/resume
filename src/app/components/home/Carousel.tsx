@@ -45,6 +45,9 @@ export default function Carousel({ items }: CarouselProps) {
                 opacity: isActive ? 1 : 0.5,
               }}
             >
+              <div>
+                
+              </div>
               {item.title}
             </motion.div>
           )
