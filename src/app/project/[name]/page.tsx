@@ -4,6 +4,17 @@ import Image from "next/image";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
+interface ProjectData {
+  title: string;
+  duration: string;
+  members: string;
+  client: string;
+  summary: string;
+  role: string;
+  techStack: string;
+  data: ({ text: string } | { image: string } | { list: string[] })[];
+}
+
 interface ProjectItem {
   text?: string;
   text_S?: string;
