@@ -58,11 +58,11 @@ export default function ProjectDetailPage() {
         <p className="text-md text-gray-600 mb-1">🏢 발주처: {projectData.client}</p>
         <p className="text-md text-gray-600 mb-1">🎯 목표: {projectData.summary}</p>
         <div className="mt-2 mb-6 flex items-start">
-          <span className="whitespace-nowrap mt-1">🔧 담당 역할:</span>
+          <span className="text-md text-gray-600">🔧 담당 역할:</span>
           <div className="ml-2 flex flex-col">{roleStackBadges}</div>
         </div>
         <div className="mt-2 mb-6 flex items-start">
-          <span className="whitespace-nowrap mt-1">🛠️ 사용 기술:</span>
+          <span className="text-md text-gray-600">🛠️ 사용 기술:</span>
           <div className="ml-2 flex flex-wrap">{techStackBadges}</div>
         </div>
         

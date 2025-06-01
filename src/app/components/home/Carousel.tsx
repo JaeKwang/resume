@@ -59,7 +59,7 @@ export default function Carousel({ items }: CarouselProps) {
             >
               {/* 카드 내용 */}
               {/* 이미지 */}
-              <div className="relative h-[230px]">
+              <div className="relative h-[240px]">
                 <Image
                   src={item.image ?? ''}
                   alt={item.title}
@@ -75,10 +75,10 @@ export default function Carousel({ items }: CarouselProps) {
 
               {/* 텍스트 */}
               <div className="p-4">
-                <h3 className="text-lg font-bold text-gray-900 mb-2">
+                <h3 className="text-lg font-bold text-gray-900 mb-2 line-clamp-1">
                   {item.title}
                 </h3>
-                <p className="text-sm text-gray-600 mb-4">
+                <p className="text-sm text-gray-600 mb-4 line-clamp-2">
                   {item.description ||
                     "Your content goes here. Edit or remove this text."}
                 </p>
