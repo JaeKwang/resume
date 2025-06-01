@@ -1,0 +1,17 @@
+{
+  "title": "카메라를 이용한 라인 검출",
+  "duration": "2018.11 ~ 2019.01",
+  "members": "1명",
+  "client": "포테닛",
+  "summary": "모바일 로봇의 측면 차선 인식과 전면 QR 인식을 통해 자율 주행 보조, Rack 위치 파악 및 진입 정렬 기능까지 포함한 비전 기반 솔루션 구현",
+  "role": "SW 개발",
+  "techStack": "C++, Serial(UART), OpenCV, Hough Transform, Line Detection, QR Detection",
+  "data": [
+    { "text": "이 프로젝트는 모바일 물류 로봇의 자율 주행과 정밀한 Rack 진입을 위한 비전 기반 시스템을 구축한 사례입니다." },
+    { "image": "/project/ih1/main.jpg" },
+    { "text": "측면 카메라를 통해 노란색 차선을 Hough Transform 방식으로 감지하고, 이를 기반으로 조향각을 계산하여 Serial 통신으로 로봇에 실시간 전달하는 기능을 구현했습니다." },
+    { "image_L": "/project/ih1/fig2.jpg" },
+    { "text": "전면 카메라는 QR 코드를 인식하여 Rack의 위치나 ID를 파악할 뿐 아니라, Rack 진입 시 QR 위치 기준으로 로봇이 정확히 중앙 정렬(center alignment)하도록 보조하는 역할도 수행합니다. 이는 실제 창고나 물류 환경에서 충돌을 예방할 수 있습니다." },
+    { "image_L": "/project/ih1/fig1.jpg" }
+  ]
+}

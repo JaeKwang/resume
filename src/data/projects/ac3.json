@@ -1,0 +1,18 @@
+{
+  "title": "RGB+D 깊이 영상 신뢰도 측정 기법 제시",
+  "duration": "2016.04 ~ 2016.08",
+  "members": "3명",
+  "client": "충남대학교 CVLAB",
+  "summary": "능동형 센서의 한계를 극복하여, 고정밀 RGB+D 데이터를 야외 환경에서도 저비용으로 안정적으로 구축하고, 이를 활용 가능한 형태로 제공하는 것",
+  "role": "논문게재",
+  "techStack": "Matlab, C++, OpenCV, Bilateral Filter, Stereo Matching, Bilateral Filter, Confidence Estimation, Depth Refinement, RGB+D Dataset 구축",
+  "data": [
+    { "text": "본 프로젝트는 실외 환경에서의 고품질 RGB+D 데이터셋 구축을 위한 기술 개발에 목적을 두고 있습니다. 기존의 깊이 센서(Kinect, LiDAR)는 야외 조명에 민감하거나 고가의 장비로 인해 데이터 구축에 제약이 있습니다. 이를 극복하기 위해, 본 연구는 ZED 스테레오 카메라로 획득한 영상 쌍에서 스테레오 정합 알고리즘(SGM)을 이용해 깊이 정보를 생성하고, 이 깊이 정보의 신뢰도를 정량화하는 방법을 새롭게 제안하였습니다." },
+    { "image_L": "/project/ac3/fig2.jpg"},
+    { "text": "특히, 깊이 영상에는 불가피하게 추정 오차가 포함되므로, 이를 보정하기 위해 비지도 학습 기반 신뢰도 측정 기법(Random Regression Forest)을 설계하고, 수퍼픽셀 기반 공간적 특징 집성 및 Adaptive Manifold Filtering을 적용하여 신뢰도 맵의 정밀도를 높였습니다. 해당 신뢰도 정보를 활용하여 신뢰도 높은 지점만을 이용한 보간(GCP 기반)을 수행함으로써 전체 깊이 영상의 품질을 개선하였습니다." },
+    { "image": "/project/ac3/main.jpg"},
+    { "text": "결과적으로, 본 기법은 기존 학습 기반 신뢰도 측정 방식보다 정확도 및 정제 성능이 우수하며, 이를 바탕으로 15만 장 이상의 야외 RGB+D 데이터셋을 구축하였습니다. 일부 데이터는 연구 웹사이트를 통해 공개되었습니다." },
+    { "image_L": "/project/ac3/fig3.jpg"},
+    { "text": "이 데이터셋과 기법은 객체 인식, 로봇 비전, 자율주행 등 다양한 비전 분야에 폭넓게 활용될 수 있습니다." }    
+  ]
+}

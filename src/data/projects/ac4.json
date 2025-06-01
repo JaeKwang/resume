@@ -1,0 +1,18 @@
+{
+  "title": "O(n) Affine 행렬 보간 알고리즘 개발",
+  "duration": "2017.06 ~ 2018.02",
+  "members": "1명",
+  "client": "충남대학교 CVLAB",
+  "summary": "MLS 기반의 연산 복잡도를 크게 줄이면서도 유사한 품질의 아핀 변환 결과를 제공하는 새로운 고속 보간 기법 제안",
+  "role": "논문게재",
+  "techStack": "Matlab, C++, OpenCV, Moving Least Squares, Affine Matrix Interpolation, Bilateral Filtering, O(HW)",
+  "data": [
+    { "text": "본 연구는 두 영상 사이의 희소한 대응점(GCP, Ground Control Point) 정보를 기반으로, 모든 픽셀에 대해 아핀변환 행렬을 보간하는 효율적인 알고리즘을 제안합니다." },
+    { "image_L": "/project/ac4/fig1.jpg"},
+    { "text": "기존 Moving Least Squares(MLS) 방식은 각 픽셀마다 반복적으로 계산을 수행하여 계산 복잡도가 매우 높았으나, 본 연구에서는 에너지 최소화 문제를 블록 대각 형태의 희소 선형 시스템으로 정리하여, 전체 해를 효율적으로 계산할 수 있는 구조를 설계하였습니다." },
+    { "image_L": "/project/ac4/fig2.jpg"},
+    { "text": "또한, Gaussian 또는 Bilateral 필터링을 통해 각 픽셀의 가중치를 빠르게 집계하며, 모든 필터링 연산은 영상 해상도(H×W)에만 비례하는 시간복잡도를 가집니다. 이는 기존 MLS의 O(nHW)에서 O(HW)로 개선된 구조로, GCP 수가 많아져도 계산 시간이 일정하게 유지되는 장점이 있습니다." },
+    { "imageL": "/project/ac4/main.jpg"},
+    { "text": "실험에서는 다양한 영상 모핑 및 움직임 보간 실험을 통해 MLS 대비 최대 30배 이상의 속도 개선을 달성하면서도 동등한 수준의 시각 품질을 유지하는 결과를 보였습니다." }
+  ]
+}

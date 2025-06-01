@@ -4,90 +4,105 @@
         "title": "카메라를 이용한 라인 검출",
         "date": "2018.11 ~ 2019.01",
         "image": "/project/ih1/main.jpg",
-        "uri": "project/ih1"
+        "uri": "project/ih1",
+        "description": "모바일 로봇의 측면 차선 인식과 전면 QR 인식을 통해 자율 주행 보조, Rack 위치 파악 및 진입 정렬 기능까지 포함한 비전 기반 솔루션 구현"
     },
     {
         "title": "국제물류산업대전 (KoreaMAT) 전시회 출품",
         "date": "2019.02 ~ 2019.04",
         "image": "/project/ih2/main.jpg",
-        "uri": "project/ih2"
+        "uri": "project/ih2",
+        "description": "기존 무인지게차용 소프트웨어를 유인 지게차 기반의 Stacker 타입 로봇에 이식하고, 전시회 출품을 위한 데모 주행 가능 상태로 구현"
     },
     {
         "title": "모바일 로봇 제어 SW 구조 재설계 및 리뉴얼",
         "date": "2019.04 ~ 2019.12",
         "image": "/project/ih3/main.jpg",
-        "uri": "project/ih3"
+        "uri": "project/ih3",
+        "description": "불안정하고 복잡하게 얽힌 기존 모바일로봇 제어 소프트웨어를 재설계하여 유지보수성 및 이식성을 개선하고, 상업용 제품으로서의 안정성과 품질을 확보하는 것"
     },
     {
         "title": "가구업체 모바일 이송로봇 납품",
         "date": "2019.06 ~ 2019.12",
         "image": "/project/ih4/main.jpg",
-        "uri": "project/ih4"
+        "uri": "project/ih4",
+        "description": "zz"
     },
     {
         "title": "로보월드 2019 전시회 출품",
         "date": "2019.09 ~ 2019.10",
         "image": "/project/ih5/main.jpg",
-        "uri": "project/ih5"
+        "uri": "project/ih5",
+        "description": "zz"
     },
     {
         "title": "5G 네트워크 연동 작업 로봇 개발 (정부과제)",
         "date": "2019.12 ~ 2020.06",
         "image": "/project/ih6/main.jpg",
-        "uri": "project/ih6"
+        "uri": "project/ih6",
+        "description": "zz"
     },
     {
         "title": "다중로봇 제어 디지털 트윈 프로젝트 (정부과제)",
         "date": "2020.01 ~ 2023.12",
         "image": "/project/ih7/main.jpg",
-        "uri": "project/ih7"
+        "uri": "project/ih7",
+        "description": "zz"
     },
     {
         "title": "가구업체 모바일 이송로봇 추가납품",
         "date": "2020.02 ~ 2020.06",
         "image": "/project/ih8/main.jpg",
-        "uri": "project/ih8"
+        "uri": "project/ih8",
+        "description": "zz"
     },
     {
         "title": "반도체 업체 웨이퍼 이송 모바일로봇 납품",
         "date": "2020.06 ~ 2020.09",
         "image": "/project/ih9/main.jpg",
-        "uri": "project/ih9"
+        "uri": "project/ih9",
+        "description": "zz"
     },
     {
         "title": "Gantry Robot 제어 SW 개발",
         "date": "2020.12 ~ 2021.02",
         "image": "/project/ih10/main.jpg",
-        "uri": "project/ih10"
+        "uri": "project/ih10",
+        "description": "zz"
     },
     {
         "title": "전시장 안내 서비스 로봇 개발 (기업과제)",
         "date": "2021.05 ~ 2021.09",
         "image": "/project/ih11/main.jpg",
-        "uri": "project/ih11"
+        "uri": "project/ih11",
+        "description": "zz"
     },
     {
         "title": "스마트공장 및 자동화 산업전 (AW2024) 출품",
         "date": "2024.01 ~ 2024.03",
         "image": "/project/ih12/main.jpg",
-        "uri": "project/ih12"
+        "uri": "project/ih12",
+        "description": "zz"
     },
     {
         "title": "Palletizer Robot 개발",
         "date": "2024.04 ~ 2024.05",
         "image": "/project/ih13/main.jpg",
-        "uri": "project/ih13"
+        "uri": "project/ih13",
+        "description": "zz"
     },
     {
         "title": "ROS2 자사 솔루션 통합",
         "date": "2024.06 ~ 2024.12",
         "image": "/project/ih14/main.jpg",
-        "uri": "project/ih14"
+        "uri": "project/ih14",
+        "description": "zz"
     },
     {
         "title": "공기청정 로봇 개발 (기업과제)",
         "date": "2024.07 ~ 2025.05",
         "image": "/project/ih15/main.jpg",
-        "uri": "project/ih15"
+        "uri": "project/ih15",
+        "description": "zz"
     }
 ]

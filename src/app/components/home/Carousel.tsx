@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
+import Image from 'next/image'
 
 interface CarouselItem {
   title: string;
@@ -36,7 +37,7 @@ export default function Carousel({ items }: CarouselProps) {
           const translateX = offset * 300;
           const translateZ = -absOffset * 80;
           const scale = isActive ? 1 : 0.95;
-          const zIndex = 10 - absOffset; // 핵심! 중앙이 10, 양쪽은 점점 낮아짐
+          const zIndex = 10 - absOffset;
 
           return (
             <motion.div
@@ -58,11 +59,12 @@ export default function Carousel({ items }: CarouselProps) {
             >
               {/* 카드 내용 */}
               {/* 이미지 */}
-              <div className="relative h-[200px]">
-                <img
-                  src={item.image}
+              <div className="relative h-[230px]">
+                <Image
+                  src={item.image ?? ''}
                   alt={item.title}
-                  className="w-full h-full object-cover"
+                  fill
+                  className="w-full h-full object-cover prohibit-copy"
                 />
                 {item.badge && (
                   <span className="absolute top-2 right-2 bg-white text-xs text-gray-700 font-semibold px-2 py-1 rounded shadow">
@@ -81,7 +83,7 @@ export default function Carousel({ items }: CarouselProps) {
                     "Your content goes here. Edit or remove this text."}
                 </p>
                 <button className="bg-purple-600 text-white px-4 py-2 rounded-full text-sm hover:bg-purple-700">
-                  Learn More
+                  More
                 </button>
               </div>
             </motion.div>
