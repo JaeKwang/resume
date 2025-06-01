@@ -4,6 +4,14 @@ import Image from "next/image";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
+interface ProjectItem {
+  text?: string;
+  text_S?: string;
+  image?: string;
+  image_L?: string;
+  list?: string[];
+}
+
 export default function ProjectDetailPage() {
   const params = useParams();
   const projectName = params?.name;
@@ -69,7 +77,7 @@ export default function ProjectDetailPage() {
         <hr className="my-8 border-t border-gray-300" />
 
         <div className="space-y-3 flex flex-col">
-          {projectData.data.map((item: any, index: number) => (
+          {projectData.data.map((item: ProjectItem, index: number) => (
             <div key={index}>
               <p className="text-lg leading-relaxed" style={{ textIndent: '1em' }}>
                 {item.text}
@@ -101,7 +109,7 @@ export default function ProjectDetailPage() {
               )}
               {"list" in item && (
               <ul className="list-disc pl-6 space-y-1 ml-8">
-                {item.list.map((li: string, liIdx: number) => (
+                {item.list?.map((li: string, liIdx: number) => (
                   <li key={liIdx} className="text-base text-gray-700">{li}</li>
                 ))}
               </ul>
