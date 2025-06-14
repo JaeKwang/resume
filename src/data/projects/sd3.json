@@ -1,0 +1,38 @@
+{
+  "title": "Simple UniSwap 개발",
+  "duration": "2025.02",
+  "members": "1명",
+  "client": "❌",
+  "summary": "자체 게임 토큰과 외부 코인을 자동으로 교환할 수 있는 스왑 구조를 구축하고, 사용자 기반 유동성 공급이 가능한 탈중앙 미니 거래소 구현",
+  "role": "SW 개발",
+  "techStack": "React, ChakraUI, Solidity, Ethers",
+  "data": [
+    { "link": "https://github.com/JaeKwang/tokenSwap" },
+    { "text": "핵심기술" },
+    { "list": [
+      "Solidity 기반 ERC-20 토큰 및 AMM 스마트 컨트랙트 개발",
+      "Uniswap V2 방식의 x*y=k 자동 시장조성(AMM) 알고리즘 구현",
+      "React + Ethers.js 기반 프론트엔드 연동 (Web3 UI)",
+      "Ethereum Sepolia 테스트넷 환경에서 스마트 컨트랙트 배포",
+      "LP 토큰 예치 및 유동성 환수 로직 구현 (Liquidity Pool)"
+    ]},
+    { "image_L": "/project/sd3/lp.jpg" },
+    { "text": "본 프로젝트는 동일한 블록체인 네트워크(Ethereum Sepolia Testnet) 상의 서로 다른 두 종류의 ERC-20 토큰 간 교환을 위한 Uniswap V2 스타일의 AMM 기반 스왑 시스템입니다."},
+    { "text": "사용자는 토큰 A, B를 민팅하여 초기 자산을 확보한 뒤"},
+    { "list": [
+      "A ↔ B 간 자동 가격 계산에 따라 스왑을 수행할 수 있으며,",
+      "자신이 소유한 자산으로 유동성 풀에 기여하고 LP 토큰을 예치 및 회수할 수 있는 기능"
+    ]},
+    { "text": "을 제공합니다." },
+    { "text": "해당 프로젝트는 추후 개발될 게임 토큰과 연동되어 게임 머니 ↔ 외부 토큰 간 교환 기능의 기반 시스템으로 사용될 예정입니다." },
+    { "image_L": "/project/sd3/ts.jpg" },
+    { "text": "주요 개발 항목" },
+    { "list": [
+      "ERC-20 토큰 A, B 및 LP Token의 스마트 컨트랙트 설계 및 배포",
+      "Uniswap V2 AMM 알고리즘 구현 (x * y = k)",
+      "스왑 로직, 유동성 공급/환수 함수 구현 및 테스트 작성",
+      "프론트엔드(React + Ethers.js)에서 Web3 지갑 연동 및 UI 구성",
+      "Sepolia Testnet 배포 및 Faucet"
+    ]}
+  ]
+}

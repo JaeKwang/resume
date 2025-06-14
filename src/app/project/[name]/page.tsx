@@ -21,6 +21,7 @@ interface ProjectItem {
   image?: string;
   image_L?: string;
   video?: string;
+  link?: string;
   list?: string[];
 }
 
@@ -97,6 +98,16 @@ export default function ProjectDetailPage() {
                   {item.text_S}
                 </span>
               </p>
+              {item.link && (
+                <p className="text-lg" style={{ textIndent: '1em' }}>
+                  {"Link: "}
+                  <a href={item.link} target="_blank">
+                    <span className="text-sm leading-relaxed underline hover:text-gray-500">
+                      {item.link}
+                    </span>
+                  </a>
+                </p>
+              )}
               {item.video && (
                 <div className="w-full aspect-video mt-4 mb-4">
                 <iframe

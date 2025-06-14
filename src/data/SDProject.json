@@ -4,34 +4,34 @@
         "date": "2022.06 ~ 2022.09",
         "image": "/project/sd1/ui.jpg",
         "uri": "project/sd1",
-        "description": "zz"
+        "description": "국내 상장 종목들의 일봉 데이터를 수집하고, CNN 기반 이미지 모델을 통해 다음 날의 주가 캔들을 예측함으로써 자동 주식 매매 판단이 가능한 AI 매매봇을 개발하는 것"
     },
     {
         "title": "Simple Bitcoin 개발",
         "date": "2025.01",
         "image": "/project/sd2/main.jpg",
         "uri": "project/sd2",
-        "description": "zz"
+        "description": "블록체인 동작 원리를 실습 기반으로 이해하고, 노드 간 블록 및 트랜잭션 동기화 기능을 갖춘 최소 단위의 P2P 분산 블록체인 네트워크를 직접 구현하는 것"
     },
     {
-        "title": "My UniSwap 개발",
+        "title": "Simple UniSwap 개발",
         "date": "2025.02",
         "image": "/project/sd3/lp.jpg",
         "uri": "project/sd3",
-        "description": "zz"
+        "description": "자체 게임 토큰과 외부 코인을 자동으로 교환할 수 있는 스왑 구조를 구축하고, 사용자 기반 유동성 공급이 가능한 탈중앙 미니 거래소 구현"
     },
     {
         "title": "NFT TCG Game 개발",
         "date": "2025.02 ~ 현재",
         "image": "/project/sd4/main.jpg",
         "uri": "project/sd4",
-        "description": "zz"
+        "description": "확률형 아이템의 불투명성과 게임 밸런싱의 문제를 해결하는 블록체인 기반 커뮤니티 투표 시스템 구현, 게임과 NFC 기반 실물 카드게임을 연동한 온오프라인 통합 게임 생태계 구축"
     },
     {
-        "title": "CRPG 개발",
+        "title": "CRPG(Chain-based Role Playing Game) 개발",
         "date": "2025.03~2025.04",
         "image": "/project/sd5/main.jpg",
         "uri": "project/sd5",
-        "description": "zz"
+        "description": "TRPG(테이블탑 롤플레잉 게임)에 Web3 기술을 접목하여, 세계관 분기를 DAO 투표로 결정하는 탈중앙형 스토리텔링 게임 구현"
     }
 ]
