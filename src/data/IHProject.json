@@ -26,83 +26,83 @@
         "date": "2019.06 ~ 2019.12",
         "image": "/project/ih4/main.jpg",
         "uri": "project/ih4",
-        "description": "zz"
+        "description": "가구 물류 환경에 적합한 모바일 로봇을 납품하기 위해, 고하중 및 중속 이동이 가능한 제어 SW를 개발하고, 현장 적용 테스트를 통해 상업 운용 가능한 로봇 플랫폼을 구축하는 것"
     },
     {
         "title": "로보월드 2019 전시회 출품",
         "date": "2019.09 ~ 2019.10",
         "image": "/project/ih5/main.jpg",
         "uri": "project/ih5",
-        "description": "zz"
+        "description": "로보월드 2019 전시회 시연용으로, 사람과 상호작용이 가능한 모바일로봇과 로봇팔 시스템을 구현하여 제품/기술을 효과적으로 홍보하고 관람객에게 인터랙티브한 경험 제공"
     },
     {
         "title": "5G 네트워크 연동 작업 로봇 개발 (정부과제)",
         "date": "2019.12 ~ 2020.06",
         "image": "/project/ih6/main.jpg",
         "uri": "project/ih6",
-        "description": "zz"
-    },
-    {
-        "title": "다중로봇 제어 디지털 트윈 프로젝트 (정부과제)",
-        "date": "2020.01 ~ 2023.12",
-        "image": "/project/ih7/main.jpg",
-        "uri": "project/ih7",
-        "description": "zz"
+        "description": "5G 네트워크를 통해 서버로부터 실시간 명령을 수신하고, 이송 로봇과 매니퓰레이터를 제어하여 생산라인의 다중 공정 지점에 자동으로 개입하는 작업 로봇을 개발하는 것"
     },
     {
         "title": "가구업체 모바일 이송로봇 추가납품",
         "date": "2020.02 ~ 2020.06",
         "image": "/project/ih8/main.jpg",
         "uri": "project/ih8",
-        "description": "zz"
+        "description": "기존 납품 모델 대비 2배 이상 길어진 적재물과 1000kg 하중 조건에 대응 가능한 모바일 이송로봇 제어 시스템을 개발하고, 현장 환경에 맞는 주행 안정성을 확보하는 것"
     },
     {
         "title": "반도체 업체 웨이퍼 이송 모바일로봇 납품",
         "date": "2020.06 ~ 2020.09",
         "image": "/project/ih9/main.jpg",
         "uri": "project/ih9",
-        "description": "zz"
+        "description": "격리된 반도체 클린룸 간에 대차를 안전하고 자동으로 이송하는 Tow형 모바일 로봇을 개발하여, 긴 이동 거리와 다양한 환경 장애요소에도 안정적으로 대응할 수 있는 실환경 솔루션을 구현"
     },
     {
         "title": "Gantry Robot 제어 SW 개발",
         "date": "2020.12 ~ 2021.02",
         "image": "/project/ih10/main.jpg",
         "uri": "project/ih10",
-        "description": "zz"
+        "description": "10kg 이하의 화물 박스를 빠르고 정확하게 이동 및 적재할 수 있도록, Gantry 로봇의 제어 소프트웨어 전체를 구현하고, 팔레타이징 작업에 적합한 고속/정밀 제어 로직을 개발하는 것"
     },
     {
         "title": "전시장 안내 서비스 로봇 개발 (기업과제)",
         "date": "2021.05 ~ 2021.09",
         "image": "/project/ih11/main.jpg",
         "uri": "project/ih11",
-        "description": "zz"
+        "description": "자동차 전시장 환경에 적합한 실내 안내 서비스 로봇을 개발하고, 로봇이 사람을 인식 및 추적하며 안내 키오스크 기능까지 수행할 수 있도록 자율주행 및 추적 기능을 통합하는 것"
     },
-    {
-        "title": "스마트공장 및 자동화 산업전 (AW2024) 출품",
-        "date": "2024.01 ~ 2024.03",
-        "image": "/project/ih12/main.jpg",
-        "uri": "project/ih12",
-        "description": "zz"
-    },
-    {
-        "title": "Palletizer Robot 개발",
-        "date": "2024.04 ~ 2024.05",
-        "image": "/project/ih13/main.jpg",
-        "uri": "project/ih13",
-        "description": "zz"
+        {
+        "title": "다중로봇 제어 디지털 트윈 프로젝트 (정부과제)",
+        "date": "2022.01 ~ 2023.12",
+        "image": "/project/ih7/main.jpg",
+        "uri": "project/ih7",
+        "description": "기존 반사봉 기반의 제한적인 SLAM을 개선하여, G-mapping 기반 Feature SLAM을 직접 구현하고, 디지털 트윈 서버와 연동되는 다중 로봇 시스템을 실현"
     },
     {
         "title": "ROS2 자사 솔루션 통합",
-        "date": "2024.06 ~ 2024.12",
+        "date": "2023.06 ~ 2024.02",
         "image": "/project/ih14/main.jpg",
         "uri": "project/ih14",
-        "description": "zz"
+        "description": "자사의 모든 로봇을 단일 ROS2 기반 플랫폼에서 통합 제어할 수 있는 시스템을 구축하고, 이기종 로봇 관리, 시뮬레이션, UI 인터페이스, 제어 알고리즘의 일원화와 운영 편의성까지 확보하는 것"
+    },
+    {
+        "title": "스마트공장 및 자동화 산업전 (AW2024) 출품",
+        "date": "2023.12 ~ 2024.03",
+        "image": "/project/ih12/main.jpg",
+        "uri": "project/ih12",
+        "description": "2축 Gantry 기반 고속 이송 시스템을 활용하여, 박스를 정확히 픽업하고 다른 팔레트로 옮기는 작업을 시연하고, 타사 장비 간 통신 중계 및 연동이 가능한 스마트팩토리 자동화 솔루션을 전시"
+    },
+    {
+        "title": "팔레타이저 알고리즘 개발",
+        "date": "2024.04 ~ 2024.05",
+        "image": "/project/ih13/main.jpg",
+        "uri": "project/ih13",
+        "description": "1m³의 제한된 공간 내에 다양한 크기의 박스를 최대한 효율적으로 적재할 수 있도록, 최적의 팔레타이징 알고리즘을 개발하고 이를 실제 Gantry 로봇 시스템에 적용하여 시뮬레이션과 실환경 테스트를 통해 성능을 검증하는 것"
     },
     {
         "title": "공기청정 로봇 개발 (기업과제)",
         "date": "2024.07 ~ 2025.05",
         "image": "/project/ih15/main.jpg",
         "uri": "project/ih15",
-        "description": "zz"
+        "description": "사용자가 특정 Room을 선택하면 로봇이 해당 공간을 자율주행으로 이동하며 공기청정 기능을 수행하는 실내 서비스 로봇을 개발"
     }
 ]

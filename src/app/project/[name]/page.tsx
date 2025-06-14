@@ -20,6 +20,7 @@ interface ProjectItem {
   text_S?: string;
   image?: string;
   image_L?: string;
+  video?: string;
   list?: string[];
 }
 
@@ -96,6 +97,16 @@ export default function ProjectDetailPage() {
                   {item.text_S}
                 </span>
               </p>
+              {item.video && (
+                <div className="w-full aspect-video mt-4 mb-4">
+                <iframe
+                  src={item.video}
+                  className="w-full h-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+              )}
               {item.image_L && (
                 <div className="my-4 flex justify-center">
                   <Image
