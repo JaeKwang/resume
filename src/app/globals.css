@@ -24,7 +24,7 @@ html {scroll-behavior: smooth;}
 h1, h2, h3, a, p {font-family: 'Noto Sans KR', serif;}
 
 .main-section {
-  @apply font-semibold relative flex justify-center min-h-screen;
+  @apply font-semibold relative flex justify-center min-h-screen overflow-x-hidden;
 }
 
 .prohibit-copy{

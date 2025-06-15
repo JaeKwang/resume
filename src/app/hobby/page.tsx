@@ -52,7 +52,7 @@ export default function Hobby() {
             </div>
 
             {/* 미디어 갤러리 */}
-            <div className="w-full md:w-2/3 grid grid-cols-3 gap-4">
+            <div className="w-full md:w-2/3 grid grid-cols-1 sm:grid-cols-3 gap-4">
               {m.media.map((media, idx) => (
                 <div
                   key={idx}
