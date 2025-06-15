@@ -64,6 +64,7 @@ export default function Carousel({ items }: CarouselProps) {
                   src={item.image ?? ''}
                   alt={item.title}
                   fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="w-full h-full object-cover prohibit-copy"
                 />
                 {item.badge && (

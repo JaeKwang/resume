@@ -7,6 +7,13 @@
   "role": "SW 개발, 교육자료 제공",
   "techStack": "PyQT, YOLOv8, Google Colab, Jetson Nano, Object Detection",
   "data": [
+    { "text": "👨‍💻 핵심기술" },
+    { "list": [
+      "PyQt 기반 GUI 어플리케이션 개발",
+      "YOLOv8 전용 Dataset 구축 툴",
+      "Google Colab 기반 모델 학습 연동",
+      "Jetson Nano 기반 실시간 추론"
+    ]},
     { "text": "이 프로젝트는 인공지능 학습의 전 과정을 교육용 키트 형태로 제공하는 것을 목표로 한 솔루션입니다." },
     { "image": "/project/cb4/fig1.jpg" },
     { "text": "AI 초보자 또는 교육기관에서 활용할 수 있도록, PyQt 기반의 사용자 친화적인 라벨링 툴을 개발하였으며, 이 툴을 통해 YOLOv8 형식에 맞는 커스텀 데이터셋 구축이 가능합니다." },

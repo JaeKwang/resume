@@ -8,7 +8,7 @@
   "techStack": "JavaScript, Node.js, WebSocket, SHA256",
   "data": [
     { "link": "https://github.com/JaeKwang/MyBlockChain" },
-    { "text": "핵심기술" },
+    { "text": "👨‍💻 핵심기술" },
     { "list": [
       "Node.js 기반 P2P 블록체인 네트워크 구현",
       "WebSocket을 활용한 노드 간 실시간 통신 및 동기화",
@@ -20,7 +20,7 @@
     { "text": "여러 개의 노드가 WebSocket을 통해 연결되어 있으며 트랜잭션 생성 및 전파, 블록 생성 및 브로드캐스트, 체인 충돌 시 체인 길이에 따른 합의 처리, 디지털 서명 및 유효성 검증과 같은 블록체인의 핵심 기능을 포함합니다."},
     { "text": "실시간으로 연결된 노드 간 상태 변화가 자동 반영되도록 설계하여 분산 환경에서의 데이터 일관성 유지를 구현했습니다." },
     { "image_L": "/project/sd2/fig1.jpg" },
-    { "text": "주요 개발 항목" },
+    { "text": "🧩 주요 개발 항목" },
     { "list": [
       "P2P 통신 기반 WebSocket 서버/클라이언트 로직 전면 구현",
       "트랜잭션 구조 설계 및 서명 기반 유효성 검증 기능 개발",

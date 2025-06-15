@@ -7,6 +7,13 @@
   "role": "SW 구현, 현장 테스트, 유지보수",
   "techStack": "C++, C#, UDP, End Point Detection, Signal Processing",
   "data": [
+    { "text": "👨‍💻 핵심기술" },
+    { "list": [
+      "모터 전류 기반 실시간 마찰력 분석 기술",
+      "End Point Detection (EPD) 알고리즘",
+      "고속 신호 처리 및 필터링 기술",
+      "데이터 저장 및 재처리 기능"
+    ]},
     { "text": "본 프로젝트는 반도체 *CMP 공정에서 사용되는 End Point Detector(EPD) 기능을 구현하기 위한 DSC(Detection Signal Controller) 시스템 개발에 초점을 둡니다." },
     { "text_S": "* CMP 공정은 웨이퍼 표면을 화학적 및 기계적 방법으로 평탄화하는 반도체 공정입니다." },
     { "image_L": "/project/cb1/fig1.jpg" },

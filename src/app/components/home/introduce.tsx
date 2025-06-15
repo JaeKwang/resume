@@ -20,18 +20,18 @@ export default function Introduce() {
   return (
     <div
       ref={ref}
-      className="flex flex-row items-center justify-between gap-64 px-6 py-16 max-w-6xl mx-auto"
+      className="flex flex-col md:flex-row items-center justify-between px-4 sm:px-6 py-12 md:gap-64 gap-8 max-w-6xl mx-auto"
     >
       <motion.div
         initial={{ opacity: 0, x: -100 }}
         animate={inView ? { opacity: 1, x: 0 } : {}}
         transition={{ duration: 1, ease: 'easeOut' }}
-        className="text-right max-w-lg text-gray-700 text-sm leading-relaxed"
+        className="text-center md:text-right max-w-lg text-gray-700 text-sm leading-relaxed"
       >
-        <p className="mb-2 font-cookierun font-extrabold text-8xl">
+        <p className="mb-2 font-cookierun font-extrabold text-5xl sm:text-6xl md:text-8xl">
           JaeKwang Park
         </p>
-        <p className="mt-6 text-lg">
+        <p className="mt-6 text-base sm:text-lg">
           자율주행 로봇 제어 소프트웨어에 특화된 엔지니어이자,<br />
           재무컨설턴트로서의 경험을 바탕으로 전통 금융부터<br />
           블록체인 기반 디지털 금융까지 폭넓게 이해하는 개발자입니다.<br />
@@ -50,7 +50,7 @@ export default function Introduce() {
         transition={{ duration: 1.5 }}
         src="/profile.png"
         alt="Profile"
-        className="w-80 object-cover prohibit-copy"
+        className="w-48 sm:w-64 md:w-80 object-cover prohibit-copy mt-4 md:mt-0"
       />
     </div>
   )

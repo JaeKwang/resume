@@ -7,6 +7,14 @@
   "role": "논문게재",
   "techStack": "Matlab, C++, OpenCV, Moving Least Squares, Affine Matrix Interpolation, Bilateral Filtering, O(HW)",
   "data": [
+    { "text": "👨‍💻 핵심기술" },
+    { "list": [
+      "Moving Least Squares (MLS) 기반의 에너지 함수 최소화 방식",
+      "픽셀 단위의 아핀변환 행렬 보간 (Affine Matrix Interpolation)",
+      "블록 대각 행렬로 구성된 희소 선형 시스템 해법",
+      "빠른 필터링 기법 적용 (Gaussian / Bilateral Filtering)",
+      "영상 내 모든 픽셀에 대해 O(HW) 복잡도의 고속 연산 구조"
+    ]},
     { "text": "본 연구는 두 영상 사이의 희소한 대응점(GCP, Ground Control Point) 정보를 기반으로, 모든 픽셀에 대해 아핀변환 행렬을 보간하는 효율적인 알고리즘을 제안합니다." },
     { "image_L": "/project/ac4/fig1.jpg"},
     { "text": "기존 Moving Least Squares(MLS) 방식은 각 픽셀마다 반복적으로 계산을 수행하여 계산 복잡도가 매우 높았으나, 본 연구에서는 에너지 최소화 문제를 블록 대각 형태의 희소 선형 시스템으로 정리하여, 전체 해를 효율적으로 계산할 수 있는 구조를 설계하였습니다." },

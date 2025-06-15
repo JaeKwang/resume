@@ -8,7 +8,7 @@
   "techStack": "NextJS, React, Solidity, Pinata",
   "data": [
     { "link": "https://github.com/LION-BOOTCAMP-TEAM1/TRPG_DAO_NFT" },
-    { "text": "핵심기술" },
+    { "text": "👨‍💻 핵심기술" },
     { "list": [
       "React, Next.js 기반 웹 게임 클라이언트 개발",
       "Web3.js를 통한 블록체인 스마트컨트랙트 연동",
@@ -25,7 +25,7 @@
     { "image": "/project/sd5/dao.jpg" },
     { "text": "게임 내 주요 장비와 아이템은 NFT로 발급되며 온체인 거래소에서 플레이어 간 자유롭게 사고팔 수 있는 구조입니다."},
     { "image_L": "/project/sd5/item.jpg" },
-    { "text": "주요 담당 역할" },
+    { "text": "🧩 주요 담당 역할" },
     { "list": [
       "게임 세계관 및 시스템 기획, 전투 밸런싱 및 아이템 디자인",
       "ERC-721 기반 NFT 아이템 발급 스마트컨트랙트 설계 및 배포",

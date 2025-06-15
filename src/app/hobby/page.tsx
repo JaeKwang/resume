@@ -52,7 +52,7 @@ export default function Hobby() {
             </div>
 
             {/* 미디어 갤러리 */}
-            <div className="w-full md:w-2/3 grid grid-cols-2 sm:grid-cols-3 gap-4">
+            <div className="w-full md:w-2/3 grid grid-cols-3 gap-4">
               {m.media.map((media, idx) => (
                 <div
                   key={idx}
@@ -64,6 +64,7 @@ export default function Hobby() {
                       src={media.src}
                       alt="gallery image"
                       fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   ) : (
@@ -72,6 +73,7 @@ export default function Hobby() {
                         src={media.thumbnail || '/default-video-thumb.jpg'}
                         alt="video thumbnail"
                         fill
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
                       />
                       <div className="absolute inset-0 flex items-center justify-center">
