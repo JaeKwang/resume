@@ -11,7 +11,7 @@
     { "list": [
       "ROS 기반 자율주행 로봇 제어 (Linux 환경)",
       "Omniwheel 기반 Odometry 로직 직접 구현",
-      "ROS MoveBase + A 기반 경로 계획 및 장애물 회피",
+      "ROS MoveBase + A Star 경로 계획 및 장애물 회피",
       "모터 드라이버 통신 및 저수준 제어 프로토콜 설계",
       "UWB 태그 기반 사람 추적 보조 시스템 연동",
       "Camera 기반 Vision Following 시스템"
@@ -20,6 +20,8 @@
     { "image_L": "/project/ih11/fig1.jpg" },
     { "text": "로봇은 기본적으로 Vision 기반으로 방문객을 인식하고 따라가며, 만약 추적 중 손실되면 방문자 목걸이에 부착된 UWB 태그를 기반으로 사람을 재탐색하여 안내 동작을 지속할 수 있습니다." },
     { "image_L": "/project/ih11/fig2.jpg" },
+    { "text": "방문객이 전시회장을 빠져나가면 로봇은 대기상태가 되며 별다른 작업이 없으면 자동충전기로 가 충전을 시작하며 새로운 방문객을 기다립니다." },
+    { "video": "/project/ih11/ac.mp4" },
     { "text": "🧩 주요 담당 역할" },
     { "list": [
       "Odometry 알고리즘 직접 구현: 옴니휠 3개 기반으로 X/Y/Θ 위치 추정 계산",
@@ -27,7 +29,8 @@
       "ROS MoveBase 설정 및 A-Star 기반 자율 경로 계획 적용",
       "UWB 수신기 연동 및 사람 재탐색 루틴 설계",
       "Vision 추적 → 유실 시 → UWB 기반 전환 추적 흐름 구현",
-      "현장 환경 테스트 및 지도 작성 / 장애물 회피 튜닝"
+      "현장 환경 테스트 및 지도 작성 / 장애물 회피 튜닝",
+      "자동충전기 HandShake 통신 및 Docking 주행 구현"
     ]},
     { "image_L": "/project/ih11/fig3.jpg" }
   ]

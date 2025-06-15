@@ -52,7 +52,7 @@ export default function ProjectDetailPage() {
     .map((tech: string, index: number) => (
       <span
         key={index}
-        className="inline-block bg-gray-200 text-sm font-medium mr-2 mb-2 px-3 py-1 rounded-full"
+        className="inline-block bg-gray-200 text-md font-medium mr-2 mb-2 px-3 py-1 rounded-full"
       >
         {tech}
       </span>
@@ -64,7 +64,7 @@ export default function ProjectDetailPage() {
     .map((tech: string, index: number) => (
       <span
         key={index}
-        className="inline-block bg-blue-100 text-blue-800 text-sm font-medium mr-2 mb-2 px-3 py-1 rounded-full"
+        className="inline-block bg-blue-100 text-blue-800 text-md font-medium mr-2 mb-2 px-3 py-1 rounded-full"
       >
         {tech}
       </span>
@@ -73,18 +73,18 @@ export default function ProjectDetailPage() {
   return (
     <section id="hobby" className="px-6 py-24 bg-gray-100">
       <div className="p-6 max-w-4xl mx-auto">
-        <h1 className="text-3xl font-bold mb-2">{projectData.title}</h1>
-        <p className="text-md text-gray-600 mb-1">📅 기간: {projectData.duration}</p>
-        <p className="text-md text-gray-600 mb-1">👥 인원: {projectData.members}</p>
-        <p className="text-md text-gray-600 mb-1">🏢 발주처: {projectData.client}</p>
-        <p className="text-md text-gray-600 mb-1">🎯 목표: {projectData.summary}</p>
-        <div className="mt-2 mb-6 flex items-start">
-          <span className="text-md text-gray-600">🔧 담당 역할:</span>
-          <div className="ml-2 flex flex-col">{roleStackBadges}</div>
+        <h1 className="text-3xl font-bold mb-4">{projectData.title}</h1>
+        <p className="text-lg text-gray-600 mb-1">📅 기간: {projectData.duration}</p>
+        <p className="text-lg text-gray-600 mb-1">👥 인원: {projectData.members}</p>
+        <p className="text-lg text-gray-600 mb-1">🏢 발주처: {projectData.client}</p>
+        <p className="text-lg text-gray-600 mb-1">🎯 목표: {projectData.summary}</p>
+        <div className="mt-2 mb-6 flex flex-col items-start gap-2">
+          <span className="text-lg text-gray-600">🔧 담당 역할:</span>
+          <div className="flex flex-wrap">{roleStackBadges}</div>
         </div>
-        <div className="mt-2 mb-6 flex items-start">
-          <span className="text-md text-gray-600">🛠️ 사용 기술:</span>
-          <div className="ml-2 flex flex-wrap">{techStackBadges}</div>
+        <div className="mt-2 mb-6 flex flex-col items-start gap-2">
+          <span className="text-lg text-gray-600">🛠️ 사용 기술:</span>
+          <div className="flex flex-wrap">{techStackBadges}</div>
         </div>
         
         <hr className="my-8 border-t border-gray-300" />
@@ -92,7 +92,7 @@ export default function ProjectDetailPage() {
         <div className="space-y-3 flex flex-col">
           {projectData.data.map((item: ProjectItem, index: number) => (
             <div key={index}>
-              <p className="text-lg leading-relaxed" style={{ textIndent: '1em' }}>
+              <p className="text-xl leading-relaxed" style={{ textIndent: '1em' }}>
                 {item.text}
                 <span className="text-sm text-gray-600">
                   {item.text_S}
@@ -143,7 +143,7 @@ export default function ProjectDetailPage() {
               {"list" in item && (
               <ul className="list-disc pl-6 space-y-1 ml-8">
                 {item.list?.map((li: string, liIdx: number) => (
-                  <li key={liIdx} className="text-base text-gray-700">{li}</li>
+                  <li key={liIdx} className="text-lg text-gray-700">{li}</li>
                 ))}
               </ul>
             )}

@@ -30,7 +30,7 @@ const educationList = [
 export default function Education() {
   return (
       <div className="px-4 sm:px-6 py-12">
-        <p className="font-cookierun text-5xl sm:text-6xl md:text-7xl text-center py-5 sm:py-10 md:py-15">학력 및 교육</p>
+        <p className="font-cookierun text-5xl sm:text-6xl md:text-7xl text-center py-10 sm:py-15 md:py-20">학력 및 교육</p>
         <div className="max-w-3xl mx-auto flex flex-col gap-8 sm:gap-12">
           {educationList.map((item, idx) => (
             <motion.div

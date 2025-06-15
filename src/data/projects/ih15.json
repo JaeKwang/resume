@@ -7,7 +7,6 @@
   "role": "HW 검수, SW 설계 및 개발, 프로젝트 일정계획수립, 배포 및 버전관리",
   "techStack": "ROS2, 3D SLAM, Modbus RTU",
   "data": [
-    { "image": "/project/ih15/main.jpg" },
     { "text": "👨‍💻 핵심기술" },
     { "list": [
       "ROS2 기반 자율주행 로봇 제어 시스템",
@@ -18,6 +17,7 @@
       "멀티노드 ROS2 구조 적용"
     ]},
     { "text": "이 프로젝트는 ROS2 기반으로 구축한 자사 통합 플랫폼을 적용한 기업 대상 실내 서비스 로봇 프로젝트입니다." },
+    { "image": "/project/ih15/main.jpg" },
     { "text": "사용자가 UI를 통해 공간(Room)을 선택하면," },
     { "list": [
       "로봇은 해당 Room으로 자율 이동하며",
@@ -25,8 +25,8 @@
       "주어진 구역 내를 자율 순회하며 공기정화 임무"
     ]},
     { "text": "를 수행합니다." },
-    { "text": "위치 인식은 3D LiDAR 기반 Point Cloud Localization 기법을 통해 수행되었으며, 공기청정기 제어는 Modbus RTU 통신을 통해 외부 제어 모듈과 연동하였습니다." },
     { "video": "/project/ih15/fig1.mp4" },
+    { "text": "위치 인식은 3D LiDAR 기반 Point Cloud Localization 기법을 통해 수행되었으며, 공기청정기 제어는 Modbus RTU 통신을 통해 외부 제어 모듈과 연동하였습니다." },
     { "text": "🧩 주요 담당 역할" },
     { "list": [
       "기반 플랫폼(ROS2 자사 솔루션 통합) 구조를 적용하여 전체 로봇 소프트웨어 프레임 설계 및 구현",

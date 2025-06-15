@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 import Image from 'next/image'
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 interface CarouselItem {
   title: string;
@@ -79,13 +80,10 @@ export default function Carousel({ items }: CarouselProps) {
                 <h3 className="text-lg font-bold text-gray-900 mb-2 line-clamp-1">
                   {item.title}
                 </h3>
-                <p className="text-sm text-gray-600 mb-4 line-clamp-2">
+                <p className="text-sm text-gray-600 mb-4 line-clamp-4">
                   {item.description ||
                     "Your content goes here. Edit or remove this text."}
                 </p>
-                <button className="bg-purple-600 text-white px-4 py-2 rounded-full text-sm hover:bg-purple-700">
-                  More
-                </button>
               </div>
             </motion.div>
           );
@@ -93,19 +91,19 @@ export default function Carousel({ items }: CarouselProps) {
       </div>
 
       {/* 좌우 버튼 */}
-      <div className="absolute top-1/2 -translate-y-1/2 z-50 pointer-events-none w-full">
-        <div className="flex justify-between px-[calc(50%-160px-48px)] pointer-events-auto">
+      <div className="absolute top-1/2 -translate-y-1/2 -translate-x-[12%] pointer-events-none w-[130%]">
+        <div className="flex justify-between pointer-events-auto">
           <button
             onClick={prev}
-            className="bg-purple-600 hover:bg-purple-400 rounded-full p-3 shadow-lg text-xl text-white"
+            className="bg-[#53b05b] hover:bg-[#337939] rounded-full w-12 h-12 flex items-center justify-center shadow-lg shadow-gray-800 text-white"
           >
-            {`<`}
+            <ChevronLeft size={20} />
           </button>
           <button
             onClick={next}
-            className="bg-purple-600 hover:bg-purple-400 rounded-full p-3 shadow-lg text-xl text-white"
+            className="bg-[#53b05b] hover:bg-[#337939] rounded-full w-12 h-12 flex items-center justify-center shadow-lg shadow-gray-800 text-white"
           >
-            {`>`}
+            <ChevronRight size={20} />
           </button>
         </div>
       </div>
@@ -116,7 +114,7 @@ export default function Carousel({ items }: CarouselProps) {
           <div
             key={i}
             className={`w-3 h-3 rounded-full transition-all duration-300 ${
-              i === index ? "bg-purple-600" : "bg-gray-300"
+              i === index ? "bg-[#337939]" : "bg-gray-300"
             }`}
           />
         ))}

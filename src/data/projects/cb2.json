@@ -3,7 +3,7 @@
   "duration": "2022.09 ~ 2022.12",
   "members": "1명",
   "client": "외주",
-  "summary": "SEM(Scanning Electron Microscope) 이미지에서 미세구조(Cell 등)를 자동으로 감지하고, 사람이 이를 손쉽게 수정(리터치)할 수 있는 반자동 라벨링 툴을 개발하는 것",
+  "summary": "SEM(Scanning Electron Microscope) 이미지에서 규칙적인 구조를 자동으로 감지하고, 사람이 이를 손쉽게 수정(리터치)할 수 있는 반자동 라벨링 툴을 개발하는 것",
   "role": "SW 구현, 유지보수",
   "techStack": "C++, MFC, OpenCV DNN, YOLO, Tensorflow",
   "data": [

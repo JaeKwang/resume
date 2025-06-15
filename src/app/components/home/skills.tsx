@@ -19,7 +19,7 @@ export default function Skills() {
           },
           {
             title: "[웹/모바일]",
-            content: "AWS, EC2, Vercel, React, NextJS, Flutter, Express, NginX, MySQL"
+            content: "AWS EC2, Vercel, React, NextJS, Flutter, Express, NginX, MySQL"
           },
           {
             title: "[게임개발]",
