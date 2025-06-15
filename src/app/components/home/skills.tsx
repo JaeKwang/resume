@@ -1,7 +1,5 @@
 'use client'
 import "@/app/globals.css"
-import { useEffect, useRef, useState } from "react"
-import { motion } from "framer-motion"
 
 export default function Skills() {
 
