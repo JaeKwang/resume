@@ -4,28 +4,10 @@ import { useEffect, useRef, useState } from "react"
 import { motion } from "framer-motion"
 
 export default function Skills() {
-  const ref = useRef<HTMLDivElement>(null)
-  const [inView, setInView] = useState(false)
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => setInView(entry.isIntersecting),
-      { threshold: 0.3 }
-    )
-
-    if (ref.current) observer.observe(ref.current)
-    return () => observer.disconnect()
-  }, [])
 
   return (
-    <motion.div
-      ref={ref}
-      initial={{ opacity: 0, y: -200 }}
-      animate={inView ? { opacity: 1, y: 0 } : {}}
-      transition={{ duration: 1, ease: "easeOut" }}
-      className="flex flex-col items-center px-4 sm:px-6 py-20 sm:py-25 md:py-30 gap-12"
-    >
-      <p className="font-cookierun text-5xl sm:text-6xl md:text-7xl text-center mb-2 sm:mb-4 md:mb-10">기술스택</p>
+    <div className="flex flex-col items-center px-4 sm:px-6 py-20 sm:py-25 md:py-30 gap-12">
+      <p className="font-cookierun text-5xl sm:text-6xl md:text-7xl text-center mb-2 sm:mb-4 md:mb-6">기술스택</p>
 
       <div className="flex flex-col gap-8 text-center max-w-4xl">
         {[
@@ -54,12 +36,12 @@ export default function Skills() {
             content: "Matlab, Jira, Github, Bitbucket"
           }
         ].map(({ title, content }) => (
-          <div key={title} className="space-y-2 sm:space-y-4 md:space-y-8">
-            <p className="font-noonnu text-4xl sm:text-5xl md:text-6xl">{title}</p>
-            <p className="font-noonnu text-3xl sm:text-4xl md:text-5xl whitespace-pre-line">{content}</p>
+          <div key={title} className="space-y-2 sm:space-y-4 md:space-y-6">
+            <p className="font-noonnu text-3xl sm:text-4xl md:text-5xl">{title}</p>
+            <p className="font-noonnu text-2xl sm:text-3xl md:text-4xl whitespace-pre-line">{content}</p>
           </div>
         ))}
       </div>
-    </motion.div>
+    </div>
   )
 }

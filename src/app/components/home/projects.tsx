@@ -9,15 +9,15 @@ import sdData from "@/data/SDProject.json";
 export default function Projects() {
   return (
     <div className="px-6 py-24">
-      <h2 className="text-4xl font-bold text-center mb-16">프로젝트</h2>
-      <h2 className="text-2xl font-bold text-center">[학내 프로젝트]</h2>
-      <Carousel items={acData} />
-      <h2 className="text-2xl font-bold text-center">[사내 프로젝트]</h2>
+      <p className="font-cookierun text-5xl sm:text-6xl md:text-7xl text-center mb-10 sm:mb-15 md:mb-20">프로젝트</p>
+      <p className="font-cookierun text-2xl sm:text-3xl md:text-4xl text-center">[사내 프로젝트]</p>
       <Carousel items={ihData} />
-      <h2 className="text-2xl font-bold text-center">[외주 개발]</h2>
+      <p className="font-cookierun text-2xl sm:text-3xl md:text-4xl text-center">[외주 개발]</p>
       <Carousel items={cbDta} />
-      <h2 className="text-2xl font-bold text-center">[자체 기획 프로젝트]</h2>
+      <p className="font-cookierun text-2xl sm:text-3xl md:text-4xl text-center">[자체 기획 프로젝트]</p>
       <Carousel items={sdData} />
+      <p className="font-cookierun text-2xl sm:text-3xl md:text-4xl text-center">[학내 프로젝트]</p>
+      <Carousel items={acData} />
     </div>
   );
 }
