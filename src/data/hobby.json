@@ -1,57 +1,13 @@
 [
     {
-      "date": "2019.06",
-      "type": "창작뮤지컬",
-      "title": "메아리",
-      "role": "음악의 신",
-      "media": [
-        { "type": "image", "src": "/hobby/메아리.jpg" },
-        { "type": "image", "src": "/hobby/메아리1.jpg" },
-        { "type": "image", "src": "/hobby/메아리2.jpg" }
-      ]
-    },
-    {
-      "date": "2019.10",
+      "date": "2023.12",
       "type": "뮤지컬",
-      "title": "빨래",
-      "role": "구씨 & 멀티",
+      "title": "RABBIT:잊혀진 암호명",
+      "role": "석대",
       "media": [
-        { "type": "image", "src": "/hobby/빨래1.jpg" },
-        { "type": "image", "src": "/hobby/빨래2.jpg" },
-        { "type": "video", "src": "/hobby/빨래.mp4", "thumbnail": "/hobby/빨래-thumbnail.jpg"}
-      ]
-    },
-    {
-      "date": "2019.12",
-      "type": "AMA",
-      "title": "라이온킹",
-      "role": "MVP 수상",
-      "media": [
-        { "type": "image", "src": "/hobby/ama-1.jpg" },
-        { "type": "image", "src": "/hobby/ama-2.jpg" },
-        { "type": "video", "src": "/hobby/ama-3.mp4", "thumbnail": "/hobby/ama-thumbnail.jpg"}
-      ]
-    },
-    {
-      "date": "2020.06",
-      "type": "뮤직드라마",
-      "title": "당신만이",
-      "role": "영석 & 멀티",
-      "media": [
-        { "type": "image", "src": "/hobby/당신만이.jpg" },
-        { "type": "image", "src": "/hobby/당신만이2.jpg" },
-        { "type": "image", "src": "/hobby/당신만이3.jpg" }
-      ]
-    },
-    {
-      "date": "2021.03",
-      "type": "뮤지컬",
-      "title": "메리골드",
-      "role": "건영",
-      "media": [
-        { "type": "image", "src": "/hobby/메리골드.jpg" },
-        { "type": "image", "src": "/hobby/메리골드2.jpg" },
-        { "type": "image", "src": "/hobby/메리골드3.jpg" }
+        { "type": "image", "src": "/hobby/rabbit2-1.jpg" },
+        { "type": "image", "src": "/hobby/rabbit2-2.jpg" },
+        { "type": "video", "src": "/hobby/rabbit2.mp4", "thumbnail": "/hobby/rabbit2-thumbnail.jpg"}
       ]
     },
     {
@@ -66,14 +22,58 @@
       ]
     },
     {
-      "date": "2023.12",
+      "date": "2021.03",
       "type": "뮤지컬",
-      "title": "RABBIT:잊혀진 암호명",
-      "role": "석대",
+      "title": "메리골드",
+      "role": "건영",
       "media": [
-        { "type": "image", "src": "/hobby/rabbit2-1.jpg" },
-        { "type": "image", "src": "/hobby/rabbit2-2.jpg" },
-        { "type": "video", "src": "/hobby/rabbit2.mp4", "thumbnail": "/hobby/rabbit2-thumbnail.jpg"}
+        { "type": "image", "src": "/hobby/메리골드.jpg" },
+        { "type": "image", "src": "/hobby/메리골드2.jpg" },
+        { "type": "image", "src": "/hobby/메리골드3.jpg" }
+      ]
+    },
+    {
+      "date": "2020.06",
+      "type": "뮤직드라마",
+      "title": "당신만이",
+      "role": "영석 & 멀티",
+      "media": [
+        { "type": "image", "src": "/hobby/당신만이.jpg" },
+        { "type": "image", "src": "/hobby/당신만이2.jpg" },
+        { "type": "image", "src": "/hobby/당신만이3.jpg" }
+      ]
+    },    
+    {
+      "date": "2019.12",
+      "type": "AMA",
+      "title": "라이온킹",
+      "role": "MVP 수상",
+      "media": [
+        { "type": "image", "src": "/hobby/ama-1.jpg" },
+        { "type": "image", "src": "/hobby/ama-2.jpg" },
+        { "type": "video", "src": "/hobby/ama-3.mp4", "thumbnail": "/hobby/ama-thumbnail.jpg"}
+      ]
+    },
+    {
+      "date": "2019.10",
+      "type": "뮤지컬",
+      "title": "빨래",
+      "role": "구씨 & 멀티",
+      "media": [
+        { "type": "image", "src": "/hobby/빨래1.jpg" },
+        { "type": "image", "src": "/hobby/빨래2.jpg" },
+        { "type": "video", "src": "/hobby/빨래.mp4", "thumbnail": "/hobby/빨래-thumbnail.jpg"}
+      ]
+    },
+    {
+      "date": "2019.06",
+      "type": "창작뮤지컬",
+      "title": "메아리",
+      "role": "음악의 신",
+      "media": [
+        { "type": "image", "src": "/hobby/메아리.jpg" },
+        { "type": "image", "src": "/hobby/메아리1.jpg" },
+        { "type": "image", "src": "/hobby/메아리2.jpg" }
       ]
     }
 ]

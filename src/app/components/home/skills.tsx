@@ -23,7 +23,7 @@ export default function Skills() {
           },
           {
             title: "[게임개발]",
-            content: "Unity3D, Phaser3"
+            content: "Unity, Phaser3, C#"
           },
           {
             title: "[AI]",
