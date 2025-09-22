@@ -4,7 +4,13 @@ import { motion } from "framer-motion"
 
 const experienceList = [
   {
-    year: "2018 ~ 2025 (휴직중)",
+    year: "2025 (재직중)",
+    title: "[가온그룹] ROS 응용 소프트웨어 개발",
+    description:
+      "엘레베이터 연동 배송 서비스를 수행하는 배송로봇의 전반적인 SW 설계(주행정책정의서, SRS, SDS 등)에 기여하여 ROS2 Galactic -> Humble 로 버전업 및 리팩토링 프로젝트를 수행하였습니다.",
+  },
+  {
+    year: "2018 ~ 2025",
     title: "[포테닛] 로봇 제어 SW 개발",
     description:
       "이기종 로봇들을 하나의 제어 플랫폼에서 통합 관리할 수 있도록 Windows 및 Linux OS 기반 제어 소프트웨어를 개발하였으며, 센서통신을 위한 프로토콜(CAN, TCP/IP, Modbus 등)과 실시간 제어 알고리즘을 구현하여 자율주행 물류로봇의 상용화를 지원했습니다.",
